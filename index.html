@@ -5,9 +5,9 @@
 const URL = "https://your.api/accel";   // <-- change me
 const intervalMs = 100;
 let last = 0;
-console.log("here")
+console.log("here1")
 document.getElementById('start').addEventListener('click', async () => {
-  console.log("here")
+  console.log("here2")
   try {
     if (typeof DeviceMotionEvent?.requestPermission === 'function') {
       const ok = await DeviceMotionEvent.requestPermission();
